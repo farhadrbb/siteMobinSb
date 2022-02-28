@@ -1,0 +1,36 @@
+.sectionTabShoab{
+    background: #F2F4F6;
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: right;
+
+
+
+}
+.tabBtn{
+    border: none !important;
+    border-radius:10px 10px 0 0 !important;
+    padding: 15px 20px !important;
+}
+.tabBtn:focus{
+    color: #ff5f00 !important;
+}
+.btnTabs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnTabs a{
+    padding: 15px 25px;
+
+}
+.btnTabsActive a{
+    background: white ;
+    color: #ff5f00 !important;
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;align-items: center;
+    border-radius: 10px 10px 0 0 ;
+}

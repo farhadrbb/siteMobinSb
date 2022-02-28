@@ -1,0 +1,99 @@
+.calcBox {
+    background: white;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: right;
+    border-radius: 10px;
+    padding: 15px;
+    align-items: center;
+    flex-grow: 1;
+    transition: all .5s;
+    height: 100px;
+
+}
+
+.plusIcon {
+    text-align: left;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #EEEEEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+
+}
+.plusIconActive {
+    text-align: left;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #ff5f00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+    color: white;
+    transform: rotate(135deg);
+
+}
+
+
+.parent {
+    width: 100%;
+    padding: 0 16px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-grow: 1;
+}
+.calcBoxActive {
+    background: white;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: right;
+    border-radius: 10px;
+    padding: 15px;
+    align-items: center;
+    flex-grow: 1;
+    border: 1px solid #ff5f00;
+    transition: all .5s;
+    height: 100px;
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .parent {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .calcBox {
+        flex-direction: column;
+        min-width: 180px;
+        min-height: auto;
+        align-items: unset;
+        transition: all .5s;
+        height: 200px;
+    }
+    .calcBoxActive {
+        flex-direction: column;
+        min-width: 180px;
+        min-height: auto;
+        align-items: unset;
+        border: 1px solid #ff5f00;
+        transition: all .5s;
+        height: 200px;
+    }
+
+    .parent {
+        width: auto;
+        padding: 0 3px;
+    }
+
+
+}

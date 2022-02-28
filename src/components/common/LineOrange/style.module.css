@@ -1,0 +1,9 @@
+.root{
+    width: 70px;
+    height: 4px;
+    background-color: #ff5f00;
+    display: inline-block;
+    border-radius: 50px;
+    margin-top: 15px;
+
+}

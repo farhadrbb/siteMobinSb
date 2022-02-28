@@ -1,0 +1,180 @@
+.cardStyle{
+    margin-bottom: 10px;
+    border: 1px solid #eceaea !important;
+
+    border-radius: 10px !important;
+
+}
+.circleOrange{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #ff5f00;
+}
+.parent {
+    width: 100%;
+    padding: 0 16px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+.calcBox {
+    background: white;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: right;
+    border-radius: 15px;
+    padding: 15px;
+    align-items: center;
+    flex-direction: column;
+    width: 180px;
+    max-height: 200px;
+
+}
+.cardStyle{
+    margin-bottom: 10px;
+    border: 1px solid #eceaea !important;
+
+    border-radius: 10px !important;
+
+}
+.btnWhy {
+
+    width: 200px;
+    margin: 20px 0;
+}
+
+.btnWhy div {
+    background: #ff5f00;
+    color: white !important;
+   width: 100%;
+    border-radius: 30px;
+    font-weight: 100;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btnWhy a {
+    background: #ff5f00;
+    color: white !important;
+   width: 100%;
+    border-radius: 30px;
+    font-weight: 100;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btnResume a{
+    background: #ff5f00;
+ border: 1px solid black;
+    width: 100%;
+    border-radius: 30px;
+    font-weight: 100;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+
+}
+.btnNameFile a{
+    background: #F3F3F3;
+    width: 100%;
+    border-radius: 30px;
+    font-weight: 100;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+
+}
+.formBox{
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    /*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+    padding: 5px;
+    margin-bottom: 100px;
+}
+.label{
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 10px;
+
+
+
+}
+.inputs{
+    border-radius: 10px !important;
+    padding: 5px;
+    height: 50px !important;
+
+
+}
+.calcBoxClick{
+    background: white;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: right;
+    border-radius: 15px;
+    padding: 15px;
+    align-items: center;
+    flex-direction: column;
+    width: 180px;
+    max-height: 200px;
+    border: 1px solid #ff5f00;
+
+}
+.plusIcon {
+    text-align: left;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+
+}
+.plusIconActive {
+    text-align: left;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+
+    transform: rotate(135deg);
+
+}
+
+.LinearProgress{
+    position: absolute;
+    top: -13px;
+    width: 97%;
+    background-color: #f87c34 !important;
+    border-radius: 5px;
+}
+
+@media screen  and (min-width: 768px){
+    .formBox{
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        padding: 15px;
+    }
+}

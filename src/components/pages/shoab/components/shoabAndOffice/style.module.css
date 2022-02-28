@@ -1,0 +1,27 @@
+.sectionContent{
+    background: white;
+    min-height: 100vh;
+}
+.tableParent {
+    border-collapse: collapse;
+    border-radius: 1em;
+    overflow: hidden;
+
+}
+.tableParent th,.tableParent td {
+    padding: 1em;
+    border-bottom: 2px solid white;
+
+}
+.tableParent th{
+    background-color: #DFE3E8 !important;
+
+
+}
+.tableParent td{
+    background-color: white;
+}
+.tableParent tr:nth-child(2n+1) td{
+    background-color: #F2F4F6 !important;
+
+}

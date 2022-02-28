@@ -1,0 +1,47 @@
+.sectionHallBourse{
+    min-height: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    background: #F2F4F6;
+    width: 100%;
+
+}
+.tabParent{
+    background: white;
+    border-radius: 10px;
+}
+.tabContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2F4F6;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 14px !important;
+
+
+}
+.navParent{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px !important;
+    font-weight: 500;
+}
+.hr{
+    margin-bottom: 5px;
+}
+.btnTab{
+ color: #ff5f00 !important;
+}.back{
+    color: #5856d6 !important;
+ }
+
+ @media screen and (min-width: 992px){
+     .navParent{
+         text-align: left;
+     }
+ }

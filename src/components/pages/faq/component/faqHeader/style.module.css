@@ -1,0 +1,194 @@
+.sectionFaqHeader {
+    background-color: #F2F4F6;
+    min-height: 42vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.inputSearch {
+    border: 0 !important;
+    min-height: 50px;
+    border-radius: 0 30px 30px 0;
+    display: flex;
+    justify-content: center;
+    direction: rtl;
+    text-align: center;
+    min-width: 100%;
+}
+
+.btnInput, .inputSearch:focus {
+    outline: none !important;
+    border: 0 !important;
+
+}
+
+.btnInput {
+    border: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px 0 0 30px;
+    padding-left: 10px;
+
+}
+
+.searchBox {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    /*margin: auto;*/
+    margin-right: 37px;
+    border-radius: 0 30px 30px 0;
+    padding: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    margin-bottom: 50px;
+}
+
+/*.divider{*/
+/*    width: 100%;*/
+/*    text-align: center;*/
+/*    font-size: 14px;*/
+
+/*}*/
+/*.divider::before,.divider::after{*/
+/*    content: "";*/
+/*    color: gray;*/
+/*    height: 2px;*/
+/*   width:100%;*/
+/*    display: block;*/
+/*    background-color: gray;*/
+
+
+/*}*/
+.divider {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    font-size: 14px;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.divider::after, .divider::before {
+    content: '';
+    display: block;
+    height: 1px;
+    min-width: 20vw;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.divider::before {
+    margin-right: 4vh;
+}
+
+.divider::after {
+    margin-left: 4vh;
+}
+
+.btnFaqHeader {
+    min-width: 100px;
+    background-color: white;
+    padding: 13px 16px;
+    display: inline-block;
+    /*color: white  !important;*/
+    border-radius: 10px;
+    font-size: 11px;
+    border: 1px solid white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.btnFaqHeader:hover {
+    color: #ff5f00 !important;
+    border: 1px solid #ff5f00;
+    text-decoration: none;
+    padding: 13px 16px;
+    transition: all .5s;
+}
+.btnFaqHeaderActive{
+    min-width: 100px;
+    background-color: #ff5f00 !important;
+    padding: 13px 16px;
+    display: inline-block;
+    color: white !important;
+    border-radius: 10px;
+    font-size: 11px;
+    border: 1px solid #ff5f00;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    transition: all .6s linear;
+}
+.btnFaqHeaderActive:hover{
+    text-decoration: none;
+    padding: 13px 16px;
+    transition: all .6s linear;
+    border: 1px solid #ff5f00;
+    color: white !important;
+
+}
+
+.btnMore {
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: all .5s;
+}
+.btnMoreActive {
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+    transform: rotate(90deg);
+    transition: all .5s;
+    color: #ff5f00 !important;
+}
+
+.btnParent {
+    display: flex;
+    max-width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.plus{
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s;
+
+}
+.plusActive{
+    transform: rotate(45deg);
+    transition: all .5s;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff5f00;
+    font-size: 20px;
+
+}
+
+
+@media only screen and (min-width: 768px) {
+    .searchBox {
+        width: 40%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .btnFaqHeader{
+        white-space: nowrap;
+    }
+    .btnFaqHeaderActive{
+        white-space: nowrap;
+    }
+
+
+}
+
+
+
+

@@ -1,0 +1,19 @@
+.sectionFinancial {
+    min-height: 30vh;
+    background: white;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+
+}
+
+.imageItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    margin-left: 5px;
+}

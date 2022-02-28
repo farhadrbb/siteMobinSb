@@ -1,0 +1,161 @@
+.section{
+    min-height: 200vh;
+    background-image:url("./Path 136.svg")  ;
+    background-repeat: no-repeat;
+}
+.btnWhy {
+
+
+    margin: 20px 0;
+    margin-left: 10px;
+}
+
+.btnWhy a {
+    background: transparent;
+    color: #ff5f00 !important;
+    width: 100%;
+    border-radius: 30px;
+    font-weight: 100;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+
+    border: 1px solid #ff5f00;
+
+}
+.btnWhyFooter a {
+    background: #ff5f00;
+    color: white !important;
+    width: 100%;
+    border-radius: 30px;
+    font-weight: 100;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 15px;
+
+    border: 1px solid white;
+
+}
+.box{
+    width: 150px;
+    height: 170px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 100px;
+    justify-content: center;
+    padding: 2px;
+}
+.boxSquare{
+    margin-bottom: 150px;
+}
+.btn{
+    width: 200px;
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+.btn a{
+    color:#ff5f00 !important ;
+
+}
+.footerImage{
+    position: relative;
+margin-bottom: 50px;
+
+
+}
+.footerImage img{
+    bottom: -50px;
+    position: absolute;
+right: 0;
+
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+}
+.sectionFooterOrange{
+    min-height: 65vh;
+    background: #ff5f00;
+}
+.logo img{
+    border-radius: 20px;
+}
+.btnBackImage {
+    background: white;
+    color: #ff5f00 !important;
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #ff5f00;
+    margin-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnBackImageGlass {
+    background: white;
+    border: 1px solid #ff5f00;
+    color: #ff5f00 !important;
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+}
+
+
+
+
+
+@media screen and (min-width: 778px){
+    .footerImage img{
+        right: 130px;
+
+    }
+}
+@media screen and (min-width: 992px){
+    .btnWhy{
+        margin-left: 0;
+    }
+    .box{
+        width: 100%;
+    }
+    .sectionFooterOrange{
+        min-height: 20vh;
+        background: #ff5f00;
+    }
+    .footerImage img{
+        right: 31px ;
+    }
+
+
+
+
+}
+.section1{
+    background-image: url("./Path 136.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}

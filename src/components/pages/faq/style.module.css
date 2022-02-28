@@ -1,0 +1,25 @@
+.root{
+    text-align: right;
+    padding: 120px 0;
+    border: none;
+}
+.cardAccordion{
+    border: none !important;
+}
+.accordionHeader{
+background-color: #FFEFE5 !important;
+    border-radius: 10px !important;
+   margin-bottom: 10px !important;
+}
+.tableThead{
+    background-color: gray;
+    border-radius: 50% !important;
+
+}
+.cardStyle{
+    margin-bottom: 10px;
+    border: 1px solid #eceaea !important;
+
+    border-radius: 10px !important;
+
+}

@@ -1,0 +1,15 @@
+.root{
+    direction: rtl;
+}
+.collapse{
+    flex-grow: unset !important;
+
+}
+.btnNav{
+    width: 130px;
+    height: 45px;
+    background: #ff5f00;
+    border-radius: 25px;
+    border: none;
+    color: white;
+}

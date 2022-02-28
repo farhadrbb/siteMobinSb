@@ -1,0 +1,88 @@
+.imageCenter {
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    border-radius: 7px;
+}
+
+.imageRight {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    border-radius: 7px;
+
+}
+
+.imageLeft {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    left: 56px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    border-radius: 7px;
+}
+.cardOpen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    padding: 15px 20px;
+    font-size: 16px !important;
+
+    border-radius: 10px;
+
+}
+
+.btnWhy {
+    text-align: right;
+    margin: 60px 0;
+
+
+}
+
+.btnWhy a {
+    background: #ff5f00;
+    color: white !important;
+    width: 100%;
+    border-radius: 30px;
+    font-weight: 100;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+    .imageRight{
+        right: 150px;
+    }
+    .imageLeft{
+        left: 180px;
+    }
+
+}
+@media screen and (min-width: 992px){
+    .btnWhy{
+        margin: 30px 0 0 0;
+    }
+    .btnWhy a{
+        width: 170px;
+    }
+
+
+}
+@media screen and (max-width: 767px){
+  .cardText{
+
+      width: 60%;
+
+
+  }
+
+}
+

@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "iransans";
+    src: url("./fonts/IRANSansWeb/IRANSansWeb.eot");
+    src: url("./fonts/IRANSansWeb/IRANSansWeb.woff");
+    src: url("./fonts/IRANSansWeb/IRANSansWeb.woff2");
+    src: url("./fonts/IRANSansWeb/IRANSansWeb.ttf");
+    src: url("fonts/iranSansDigitToFarsi/IRANSansWeb(FaNum).woff")format("woff");
+}
+
+@font-face {
+    font-family: "toFarsiInt";
+    src: url("fonts/iranSansDigitToFarsi/IRANSansWeb(FaNum).woff")format("woff");
+}
+
+
+body{
+    font-family: "iransans" !important;
+    direction: rtl;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+a:hover{
+    text-decoration: none !important;
+}
+a{
+    color: black ;
+}
+
+.navStyle .dropdown-toggle::after{
+    vertical-align: baseline !important;
+    margin-right: 5px !important;
+}
+.navStyle .dropdown-menu{
+    right: 0;
+ min-width: max-content !important;
+
+}
+.navStyle .dropdown-item{
+
+}
+.navbar-toggler:focus{
+    box-shadow: unset !important;
+}
+h3{
+    font-size: 25px !important;
+}
+.MuiLinearProgress-bar{
+    background: #af5118 !important;
+}
+
+@media screen and (min-width: 767px){
+    h3{
+        font-size: 1.75rem !important;
+    }
+
+
+
+}
+

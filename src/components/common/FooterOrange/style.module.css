@@ -1,0 +1,16 @@
+.btn{
+    width: 200px;
+    height: 40px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+}
+
+.btn:hover a{
+    color:#ff5f00 !important ;
+}

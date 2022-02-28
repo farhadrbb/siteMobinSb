@@ -1,0 +1,102 @@
+.sectionContact{
+    background: white;
+    min-height: 50vh;
+    display: flex;
+
+    padding: 100px 0;
+
+}
+
+.inputContact p{
+    font-weight:300;
+    font-size: 15px;
+
+
+}
+.inputContact {
+    margin-bottom: 20px;
+}
+.input{
+    border-radius: 8px !important;
+    height: 50px !important;
+
+}
+.inputTextarea{
+    border-radius: 8px !important;
+    resize: none;
+    outline: none !important;
+
+}
+.input:focus,.inputTextarea:focus{
+    outline: none !important;
+    overflow: auto;
+
+}
+.map{
+    width: 400px;
+    margin: 0;
+}
+.mapboxgl-canvas{
+    width: 500px;
+    height: 500px;
+}
+.listAdress {
+    font-weight: 100;
+    font-size: 1rem;
+    list-style: none;
+    text-align: right;
+    padding: 0 !important;
+
+}
+.itemAdrees{
+    margin-top: 5px;
+}
+.iframeTag{
+    width: 100%;
+    min-height: 39vh;
+    border-radius: 10px;
+}
+.btnWhy {
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+ .btnSubmit{
+    background: #ff5f00;
+    color: white !important;
+    width: 170px;
+    border-radius: 30px;
+    font-weight: 100;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    border: none;
+}
+
+.disableButtom{
+    background: rgba(0,0,0,0.3);
+    color: white !important;
+    width: 170px;
+    border-radius: 30px;
+    font-weight: 100;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+    border: none;
+}
+
+@media screen and (min-width: 768px){
+    .btnWhy{
+        text-align: right;
+        justify-content: unset;
+    }
+
+
+}
+

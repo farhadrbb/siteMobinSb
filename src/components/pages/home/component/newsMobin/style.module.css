@@ -1,0 +1,23 @@
+.sectionNews {
+    background: white;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.tittle {
+    margin-bottom: 70px;
+
+}
+
+.tittleNews {
+    text-align: right;
+
+
+}
+
+.tittleNews p {
+    font-size: 17px;
+    font-weight: 600;
+}

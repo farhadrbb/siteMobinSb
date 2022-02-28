@@ -1,0 +1,102 @@
+.imageWhy {
+    max-width: 100%;
+    position: relative;
+    z-index: 12;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;;
+    border-radius: 7px;
+}
+
+.imageFilter {
+    max-width: 95%;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    bottom: 0;
+    right: 8px;
+    border-radius: 7px;
+
+}
+
+.list {
+    columns: 1;
+    list-style: none;
+    font-size: 17px;
+    font-weight: 200;
+    padding: 0;
+    text-align: right;
+}
+
+.listItem {
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+
+.btnWhy {
+    text-align: right;
+    margin-top: 50px;
+
+
+}
+
+.btnWhy a {
+    background: #ff5f00;
+    color: white !important;
+    width: 100%;
+    border-radius: 30px;
+    font-weight: 100;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.btnImageParent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+.btnBackImage {
+    background: #ff5f00;
+    color: white !important;
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnBackImageGlass {
+  background: white;
+    border: 1px solid #ff5f00;
+    color: #ff5f00 !important;
+    width: 180px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+
+}
+
+
+
+@media screen and (min-width: 992px) {
+    .list {
+        columns: 2;
+        white-space: nowrap;
+    }
+
+    .btnWhy a {
+        width: 170px;
+    }
+
+
+}
+
+
